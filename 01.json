@@ -31,6 +31,30 @@
         "detour": "Best Latency"
       },
       {
+        "tag": "Lock Region ID-dns",
+        "address": "8.8.8.8",
+        "strategy": "ipv4_only",
+        "detour": "Lock Region ID"
+      },
+      {
+        "tag": "WhatsApp-dns",
+        "address": "8.8.4.4",
+        "strategy": "ipv4_only",
+        "detour": "WhatsApp"
+      },
+      {
+        "tag": "GAMESMAX(ML/FF/AOV)-dns",
+        "address": "8.8.4.4",
+        "strategy": "ipv4_only",
+        "detour": "GAMESMAX(ML/FF/AOV)"
+      },
+      {
+        "tag": "Route Port Game-dns",
+        "address": "9.9.9.9",
+        "strategy": "ipv4_only",
+        "detour": "Route Port Game"
+      },
+      {
         "tag": "direct-dns",
         "address": "149.112.112.112",
         "strategy": "ipv4_only",
@@ -57,6 +81,11 @@
         "rewrite_ttl": 20
       },
       {
+        "geosite": "rule-malicious",
+        "server": "block-dns",
+        "rewrite_ttl": 20
+      },
+      {
         "outbound": "Internet",
         "server": "Internet-dns",
         "rewrite_ttl": 20
@@ -64,6 +93,26 @@
       {
         "outbound": "Best Latency",
         "server": "Best Latency-dns",
+        "rewrite_ttl": 20
+      },
+      {
+        "outbound": "Lock Region ID",
+        "server": "Lock Region ID-dns",
+        "rewrite_ttl": 20
+      },
+      {
+        "outbound": "WhatsApp",
+        "server": "WhatsApp-dns",
+        "rewrite_ttl": 20
+      },
+      {
+        "outbound": "GAMESMAX(ML/FF/AOV)",
+        "server": "GAMESMAX(ML/FF/AOV)-dns",
+        "rewrite_ttl": 20
+      },
+      {
+        "outbound": "Route Port Game",
+        "server": "Route Port Game-dns",
         "rewrite_ttl": 20
       },
       {
@@ -108,6 +157,57 @@
       "tag": "Internet",
       "outbounds": [
         "Best Latency",
+        "🇺🇸_US_美国",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖32",
+        "🆔@LuxyNet💎❖🇬🇧❖GB❖33",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖241",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B3%F0%9F%87%B1%E2%9D%96NL%E2%9D%96409",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B9%F0%9F%87%BC%E2%9D%96TW%E2%9D%96592",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B3%F0%9F%87%B1%E2%9D%96NL%E2%9D%96631",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖667",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%AD%F0%9F%87%B7%E2%9D%96HR%E2%9D%96688",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B9%F0%9F%87%B7%E2%9D%96TR%E2%9D%96692",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%B1%E2%9D%96PL%E2%9D%96910",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%B1%E2%9D%96PL%E2%9D%96919",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%B1%E2%9D%96PL%E2%9D%96923",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B1%F0%9F%87%BB%E2%9D%96LV%E2%9D%961123",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B1%F0%9F%87%BB%E2%9D%96LV%E2%9D%961128",
+        "🆔@LuxyNet💎❖🇳🇱❖NL❖1428",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖1546",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖1597",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖1614",
+        "RescueNet-5062",
+        "RescueNet-5748",
+        "RescueNet-6872",
+        "RescueNet-9",
+        "RescueNet-19",
+        "RescueNet-40",
+        "RescueNet-167",
+        "@prrofile_purple%20|%20FI%F0%9F%87%AB%F0%9F%87%AE%20|%20PHONe.Kashti.WORLd:80%20|%20185.019ms",
+        "@vpn_tehran%20|%20RELAY%F0%9F%9A%A9%20|%20104.31.16.9:80%20|%2012.7652ms",
+        "@fnet00%20|%20FR%F0%9F%87%AB%F0%9F%87%B7%20|%2051.91.11.29:80%20|%20118.681ms",
+        "%F0%9F%87%AC%F0%9F%87%B7GR(AzadNet.t.me)_002",
+        "%F0%9F%87%B2%F0%9F%87%B0MK(AzadNet.t.me)_002",
+        "%F0%9F%87%B2%F0%9F%87%B9MT(AzadNet.t.me)",
+        "%F0%9F%87%B3%F0%9F%87%B1NL(AzadNet.t.me)_079",
+        "🇺🇸US(AzadNet.t.me)_440",
+        "🇺🇸US(AzadNet.t.me)_663",
+        "%F0%9F%87%BA%F0%9F%87%B8US(AzadNet.t.me)_718",
+        "%F0%9F%87%BA%F0%9F%87%B8US(AzadNet.t.me)_740",
+        "tcp-giti-mtn",
+        "ZUS9-TD",
+        "FB-4TD",
+        "@ConfigV2RayNG+%F0%9F%87%A9%F0%9F%87%AA",
+        "5B-1T",
+        "ZUS9-2TD",
+        "@ConfigV2RayNG+%F0%9F%87%BA%F0%9F%87%B2",
+        "ConfigV2RayNG%F0%9F%AA%90%D8%AC%D9%88%DB%8C%D9%86+%D8%A8%D8%AF%D9%87%F0%9F%87%BA%F0%9F%87%B8",
+        "-xx84x2nb",
+        "RescueNet-21",
+        "RescueNet-39",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B8%F0%9F%87%AC%E2%9D%96SG%E2%9D%96437",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B8%F0%9F%87%AC%E2%9D%96SG%E2%9D%96445",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%A6%E2%9D%96PA%E2%9D%961542",
         "@Vpn_Filternet%F0%9F%92%96%F0%9F%91%89%F0%9F%87%AE%F0%9F%87%B1%F0%9F%92%96%F0%9F%91%89IL_1",
         "%F0%9F%87%A6%F0%9F%87%AB_AF_%E9%98%BF%E5%AF%8C%E6%B1%97",
         "%F0%9F%87%AF%F0%9F%87%B5+JP+%E6%97%A5%E6%9C%AC+240",
@@ -222,7 +322,7 @@
         "%F0%9F%87%BA%F0%9F%87%B8+United+States+20+Connected",
         "ConfigV2RayNG",
         "CF8",
-        "@ConfigV2RayNG+%F0%9F%87%A9%F0%9F%87%AA",
+        "@ConfigV2RayNG+%F0%9F%87%A9%F0%9F%87%AA 2",
         "%D8%A8%D8%B1%D8%A7%DB%8C+%D8%A7%D8%AA%D8%B5%D8%A7%D9%84+%D8%AF%D8%A7%D8%A6%D9%85%DB%8C+%D8%AC%D9%88%DB%8C%D9%86+%D8%B4%D9%88%F0%9F%8D%A6@ConfigV2RayNG",
         "🇺🇸US-23.108.100.103-1269",
         "%F0%9F%87%B0%F0%9F%87%B7KR-43.202.49.222-3513",
@@ -234,6 +334,57 @@
       "type": "urltest",
       "tag": "Best Latency",
       "outbounds": [
+        "🇺🇸_US_美国",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖32",
+        "🆔@LuxyNet💎❖🇬🇧❖GB❖33",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖241",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B3%F0%9F%87%B1%E2%9D%96NL%E2%9D%96409",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B9%F0%9F%87%BC%E2%9D%96TW%E2%9D%96592",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B3%F0%9F%87%B1%E2%9D%96NL%E2%9D%96631",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖667",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%AD%F0%9F%87%B7%E2%9D%96HR%E2%9D%96688",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B9%F0%9F%87%B7%E2%9D%96TR%E2%9D%96692",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%B1%E2%9D%96PL%E2%9D%96910",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%B1%E2%9D%96PL%E2%9D%96919",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%B1%E2%9D%96PL%E2%9D%96923",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B1%F0%9F%87%BB%E2%9D%96LV%E2%9D%961123",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B1%F0%9F%87%BB%E2%9D%96LV%E2%9D%961128",
+        "🆔@LuxyNet💎❖🇳🇱❖NL❖1428",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖1546",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖1597",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖1614",
+        "RescueNet-5062",
+        "RescueNet-5748",
+        "RescueNet-6872",
+        "RescueNet-9",
+        "RescueNet-19",
+        "RescueNet-40",
+        "RescueNet-167",
+        "@prrofile_purple%20|%20FI%F0%9F%87%AB%F0%9F%87%AE%20|%20PHONe.Kashti.WORLd:80%20|%20185.019ms",
+        "@vpn_tehran%20|%20RELAY%F0%9F%9A%A9%20|%20104.31.16.9:80%20|%2012.7652ms",
+        "@fnet00%20|%20FR%F0%9F%87%AB%F0%9F%87%B7%20|%2051.91.11.29:80%20|%20118.681ms",
+        "%F0%9F%87%AC%F0%9F%87%B7GR(AzadNet.t.me)_002",
+        "%F0%9F%87%B2%F0%9F%87%B0MK(AzadNet.t.me)_002",
+        "%F0%9F%87%B2%F0%9F%87%B9MT(AzadNet.t.me)",
+        "%F0%9F%87%B3%F0%9F%87%B1NL(AzadNet.t.me)_079",
+        "🇺🇸US(AzadNet.t.me)_440",
+        "🇺🇸US(AzadNet.t.me)_663",
+        "%F0%9F%87%BA%F0%9F%87%B8US(AzadNet.t.me)_718",
+        "%F0%9F%87%BA%F0%9F%87%B8US(AzadNet.t.me)_740",
+        "tcp-giti-mtn",
+        "ZUS9-TD",
+        "FB-4TD",
+        "@ConfigV2RayNG+%F0%9F%87%A9%F0%9F%87%AA",
+        "5B-1T",
+        "ZUS9-2TD",
+        "@ConfigV2RayNG+%F0%9F%87%BA%F0%9F%87%B2",
+        "ConfigV2RayNG%F0%9F%AA%90%D8%AC%D9%88%DB%8C%D9%86+%D8%A8%D8%AF%D9%87%F0%9F%87%BA%F0%9F%87%B8",
+        "-xx84x2nb",
+        "RescueNet-21",
+        "RescueNet-39",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B8%F0%9F%87%AC%E2%9D%96SG%E2%9D%96437",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B8%F0%9F%87%AC%E2%9D%96SG%E2%9D%96445",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%A6%E2%9D%96PA%E2%9D%961542",
         "@Vpn_Filternet%F0%9F%92%96%F0%9F%91%89%F0%9F%87%AE%F0%9F%87%B1%F0%9F%92%96%F0%9F%91%89IL_1",
         "%F0%9F%87%A6%F0%9F%87%AB_AF_%E9%98%BF%E5%AF%8C%E6%B1%97",
         "%F0%9F%87%AF%F0%9F%87%B5+JP+%E6%97%A5%E6%9C%AC+240",
@@ -348,7 +499,7 @@
         "%F0%9F%87%BA%F0%9F%87%B8+United+States+20+Connected",
         "ConfigV2RayNG",
         "CF8",
-        "@ConfigV2RayNG+%F0%9F%87%A9%F0%9F%87%AA",
+        "@ConfigV2RayNG+%F0%9F%87%A9%F0%9F%87%AA 2",
         "%D8%A8%D8%B1%D8%A7%DB%8C+%D8%A7%D8%AA%D8%B5%D8%A7%D9%84+%D8%AF%D8%A7%D8%A6%D9%85%DB%8C+%D8%AC%D9%88%DB%8C%D9%86+%D8%B4%D9%88%F0%9F%8D%A6@ConfigV2RayNG",
         "🇺🇸US-23.108.100.103-1269",
         "%F0%9F%87%B0%F0%9F%87%B7KR-43.202.49.222-3513",
@@ -357,6 +508,1194 @@
       ],
       "url": "https://detectportal.firefox.com/success.txt",
       "interval": "1m0s"
+    },
+    {
+      "type": "selector",
+      "tag": "Lock Region ID",
+      "outbounds": [
+        "🇺🇸_US_美国",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖32",
+        "🆔@LuxyNet💎❖🇬🇧❖GB❖33",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖241",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B3%F0%9F%87%B1%E2%9D%96NL%E2%9D%96409",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B9%F0%9F%87%BC%E2%9D%96TW%E2%9D%96592",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B3%F0%9F%87%B1%E2%9D%96NL%E2%9D%96631",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖667",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%AD%F0%9F%87%B7%E2%9D%96HR%E2%9D%96688",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B9%F0%9F%87%B7%E2%9D%96TR%E2%9D%96692",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%B1%E2%9D%96PL%E2%9D%96910",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%B1%E2%9D%96PL%E2%9D%96919",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%B1%E2%9D%96PL%E2%9D%96923",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B1%F0%9F%87%BB%E2%9D%96LV%E2%9D%961123",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B1%F0%9F%87%BB%E2%9D%96LV%E2%9D%961128",
+        "🆔@LuxyNet💎❖🇳🇱❖NL❖1428",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖1546",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖1597",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖1614",
+        "RescueNet-5062",
+        "RescueNet-5748",
+        "RescueNet-6872",
+        "RescueNet-9",
+        "RescueNet-19",
+        "RescueNet-40",
+        "RescueNet-167",
+        "@prrofile_purple%20|%20FI%F0%9F%87%AB%F0%9F%87%AE%20|%20PHONe.Kashti.WORLd:80%20|%20185.019ms",
+        "@vpn_tehran%20|%20RELAY%F0%9F%9A%A9%20|%20104.31.16.9:80%20|%2012.7652ms",
+        "@fnet00%20|%20FR%F0%9F%87%AB%F0%9F%87%B7%20|%2051.91.11.29:80%20|%20118.681ms",
+        "%F0%9F%87%AC%F0%9F%87%B7GR(AzadNet.t.me)_002",
+        "%F0%9F%87%B2%F0%9F%87%B0MK(AzadNet.t.me)_002",
+        "%F0%9F%87%B2%F0%9F%87%B9MT(AzadNet.t.me)",
+        "%F0%9F%87%B3%F0%9F%87%B1NL(AzadNet.t.me)_079",
+        "🇺🇸US(AzadNet.t.me)_440",
+        "🇺🇸US(AzadNet.t.me)_663",
+        "%F0%9F%87%BA%F0%9F%87%B8US(AzadNet.t.me)_718",
+        "%F0%9F%87%BA%F0%9F%87%B8US(AzadNet.t.me)_740",
+        "tcp-giti-mtn",
+        "ZUS9-TD",
+        "FB-4TD",
+        "@ConfigV2RayNG+%F0%9F%87%A9%F0%9F%87%AA",
+        "5B-1T",
+        "ZUS9-2TD",
+        "@ConfigV2RayNG+%F0%9F%87%BA%F0%9F%87%B2",
+        "ConfigV2RayNG%F0%9F%AA%90%D8%AC%D9%88%DB%8C%D9%86+%D8%A8%D8%AF%D9%87%F0%9F%87%BA%F0%9F%87%B8",
+        "-xx84x2nb",
+        "RescueNet-21",
+        "RescueNet-39",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B8%F0%9F%87%AC%E2%9D%96SG%E2%9D%96437",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B8%F0%9F%87%AC%E2%9D%96SG%E2%9D%96445",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%A6%E2%9D%96PA%E2%9D%961542",
+        "@Vpn_Filternet%F0%9F%92%96%F0%9F%91%89%F0%9F%87%AE%F0%9F%87%B1%F0%9F%92%96%F0%9F%91%89IL_1",
+        "%F0%9F%87%A6%F0%9F%87%AB_AF_%E9%98%BF%E5%AF%8C%E6%B1%97",
+        "%F0%9F%87%AF%F0%9F%87%B5+JP+%E6%97%A5%E6%9C%AC+240",
+        "%F0%9F%87%BA%F0%9F%87%B8+US+%E7%BE%8E%E5%9B%BD+75",
+        "🆔@LuxyNet💎❖🇮🇳❖IN❖46",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B3%F0%9F%87%B1%E2%9D%96NL%E2%9D%96265",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%AA%F0%9F%87%B8%E2%9D%96ES%E2%9D%96485",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B1%F0%9F%87%BA%E2%9D%96LU%E2%9D%96486",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%AC%F0%9F%87%A7%E2%9D%96GB%E2%9D%96538",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%BA%F0%9F%87%B8%E2%9D%96US%E2%9D%96543",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖590",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B8%F0%9F%87%AC%E2%9D%96SG%E2%9D%96593",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%AF%F0%9F%87%B5%E2%9D%96JP%E2%9D%96596",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B2%F0%9F%87%B0%E2%9D%96MK%E2%9D%96686",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%AD%F0%9F%87%B7%E2%9D%96HR%E2%9D%96687",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B9%F0%9F%87%B7%E2%9D%96TR%E2%9D%96690",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B9%F0%9F%87%B7%E2%9D%96TR%E2%9D%96691",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B9%F0%9F%87%B7%E2%9D%96TR%E2%9D%96693",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B9%F0%9F%87%B7%E2%9D%96TR%E2%9D%96694",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B9%F0%9F%87%B7%E2%9D%96TR%E2%9D%96695",
+        "🆔@LuxyNet💎❖🇯🇵❖JP❖696",
+        "🆔@LuxyNet💎❖🇯🇵❖JP❖701",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖706",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖707",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖735",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖741",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖767",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%AE%F0%9F%87%B2%E2%9D%96IM%E2%9D%96797",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B8%F0%9F%87%AA%E2%9D%96SE%E2%9D%96798",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B8%F0%9F%87%AA%E2%9D%96SE%E2%9D%96799",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B8%F0%9F%87%AA%E2%9D%96SE%E2%9D%96800",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B8%F0%9F%87%AA%E2%9D%96SE%E2%9D%96801",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%AB%F0%9F%87%AE%E2%9D%96FI%E2%9D%96803",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B7%F0%9F%87%BA%E2%9D%96RU%E2%9D%96838",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%A6%F0%9F%87%B1%E2%9D%96AL%E2%9D%96839",
+        "🆔@LuxyNet💎❖🇸🇬❖SG❖869",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%AE%F0%9F%87%AA%E2%9D%96IE%E2%9D%96876",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%AE%F0%9F%87%AA%E2%9D%96IE%E2%9D%96877",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%B1%E2%9D%96PL%E2%9D%96908",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%B1%E2%9D%96PL%E2%9D%96909",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%B1%E2%9D%96PL%E2%9D%96913",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%B1%E2%9D%96PL%E2%9D%96914",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%B1%E2%9D%96PL%E2%9D%96922",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%B1%E2%9D%96PL%E2%9D%96929",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%AC%F0%9F%87%A7%E2%9D%96GB%E2%9D%96952",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%A8%F0%9F%87%BF%E2%9D%96CZ%E2%9D%96953",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%A8%F0%9F%87%BF%E2%9D%96CZ%E2%9D%96954",
+        "🆔@LuxyNet💎❖🇸🇬❖SG❖1000",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖1013",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖1027",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B7%F0%9F%87%B8%E2%9D%96RS%E2%9D%961039",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B7%F0%9F%87%B4%E2%9D%96RO%E2%9D%961040",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%AE%F0%9F%87%B1%E2%9D%96IL%E2%9D%961044",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%AE%F0%9F%87%B1%E2%9D%96IL%E2%9D%961047",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%A9%F0%9F%87%B0%E2%9D%96DK%E2%9D%961049",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%A9%F0%9F%87%B0%E2%9D%96DK%E2%9D%961050",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%A8%F0%9F%87%B4%E2%9D%96CO%E2%9D%961057",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B2%F0%9F%87%BD%E2%9D%96MX%E2%9D%961059",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B3%F0%9F%87%B4%E2%9D%96NO%E2%9D%961072",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%BA%F0%9F%87%B8%E2%9D%96US%E2%9D%961078",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B3%F0%9F%87%AC%E2%9D%96NG%E2%9D%961079",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%AF%F0%9F%87%B5%E2%9D%96JP%E2%9D%961093",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%A7%F0%9F%87%A6%E2%9D%96BA%E2%9D%961094",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B1%F0%9F%87%BB%E2%9D%96LV%E2%9D%961119",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B1%F0%9F%87%BB%E2%9D%96LV%E2%9D%961121",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B1%F0%9F%87%BB%E2%9D%96LV%E2%9D%961124",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B1%F0%9F%87%BB%E2%9D%96LV%E2%9D%961125",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B1%F0%9F%87%BB%E2%9D%96LV%E2%9D%961126",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B1%F0%9F%87%BB%E2%9D%96LV%E2%9D%961129",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B1%F0%9F%87%BB%E2%9D%96LV%E2%9D%961130",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%A6%F0%9F%87%BF%E2%9D%96AZ%E2%9D%961136",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖1317",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%A8%F0%9F%87%AD%E2%9D%96CH%E2%9D%961372",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%BA%F0%9F%87%B8%E2%9D%96US%E2%9D%961373",
+        "🆔@LuxyNet💎❖🇯🇵❖JP❖1441",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%A8%F0%9F%87%BF%E2%9D%96CZ%E2%9D%961500",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖1520",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖1523",
+        "🆔@LuxyNet💎❖🇺🇸❖US❖1524",
+        "🆔@LuxyNet💎❖🇩🇪❖DE❖1632",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B3%F0%9F%87%B1%E2%9D%96NL%E2%9D%961634",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%BA%F0%9F%87%B8%E2%9D%96US%E2%9D%961839",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%AF%F0%9F%87%B5%E2%9D%96JP%E2%9D%961974",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%BB%F0%9F%87%B3%E2%9D%96VN%E2%9D%962004",
+        "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%AE%F0%9F%87%B3%E2%9D%96IN%E2%9D%962005",
+        "RescueNet-65",
+        "RescueNet-697",
+        "RescueNet-1846",
+        "RescueNet-3221",
+        "RescueNet-4134",
+        "RescueNet-5301",
+        "RescueNet-8395",
+        "RescueNet-27",
+        "RescueNet-36",
+        "RescueNet-81",
+        "RescueNet-140",
+        "RescueNet-224",
+        "%F0%9F%87%A8%F0%9F%87%BECY(AzadNet.t.me)_026",
+        "%F0%9F%87%A9%F0%9F%87%AADE(AzadNet.t.me)_134",
+        "%F0%9F%87%AE%F0%9F%87%B2IM(AzadNet.t.me)_002",
+        "%F0%9F%87%AE%F0%9F%87%B8IS(AzadNet.t.me)_001",
+        "%F0%9F%87%AE%F0%9F%87%B8IS(AzadNet.t.me)_002",
+        "%F0%9F%87%B5%F0%9F%87%B1PL(AzadNet.t.me)_057",
+        "%F0%9F%87%B8%F0%9F%87%AESI(AzadNet.t.me)",
+        "🇺🇸US(AzadNet.t.me)_402",
+        "🇺🇸US(AzadNet.t.me)_439",
+        "🇺🇸US(AzadNet.t.me)_441",
+        "🇺🇸US(AzadNet.t.me)_447",
+        "🇺🇸US(AzadNet.t.me)_607",
+        "🇺🇸US(AzadNet.t.me)_667",
+        "%F0%9F%87%BA%F0%9F%87%B8US(AzadNet.t.me)_706",
+        "%F0%9F%87%BA%F0%9F%87%B8+United+States+20+Connected",
+        "ConfigV2RayNG",
+        "CF8",
+        "@ConfigV2RayNG+%F0%9F%87%A9%F0%9F%87%AA 2",
+        "%D8%A8%D8%B1%D8%A7%DB%8C+%D8%A7%D8%AA%D8%B5%D8%A7%D9%84+%D8%AF%D8%A7%D8%A6%D9%85%DB%8C+%D8%AC%D9%88%DB%8C%D9%86+%D8%B4%D9%88%F0%9F%8D%A6@ConfigV2RayNG",
+        "🇺🇸US-23.108.100.103-1269",
+        "%F0%9F%87%B0%F0%9F%87%B7KR-43.202.49.222-3513",
+        "%F0%9F%87%BF%F0%9F%87%A6ZA-41.203.4.34-8572",
+        "🆔@LuxyNet💎❖🇳🇱❖NL❖1438"
+      ]
+    },
+    {
+      "tag": "🇺🇸_US_美国",
+      "type": "vmess",
+      "server": "45.58.186.90",
+      "server_port": 51140,
+      "uuid": "4a138e19-0595-4d51-83c6-fd276cf7d307",
+      "security": "auto",
+      "alter_id": 64,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "🆔@LuxyNet💎❖🇺🇸❖US❖32",
+      "type": "vmess",
+      "server": "vus3.0bad.com",
+      "server_port": 443,
+      "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vus3.0bad.com",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/chat",
+        "headers": {
+          "Host": "vus3.0bad.com"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "🆔@LuxyNet💎❖🇬🇧❖GB❖33",
+      "type": "vmess",
+      "server": "vuk2.0bad.com",
+      "server_port": 443,
+      "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vuk2.0bad.com",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/chat",
+        "headers": {
+          "Host": "vuk2.0bad.com"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "🆔@LuxyNet💎❖🇺🇸❖US❖241",
+      "type": "vmess",
+      "server": "mci.bamarambash.monster",
+      "server_port": 443,
+      "uuid": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "mci.bamarambash.monster",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/b8767a6a-1c30-11ee-ba76-9ee097a90b8b",
+        "headers": {
+          "Host": "b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B3%F0%9F%87%B1%E2%9D%96NL%E2%9D%96409",
+      "type": "shadowsocks",
+      "server": "beeconf.xyz",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "Z1wBgCIV329qt77IFvDEGE",
+      "plugin": "",
+      "plugin_opts": "",
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B9%F0%9F%87%BC%E2%9D%96TW%E2%9D%96592",
+      "type": "shadowsocks",
+      "server": "61.220.130.70",
+      "server_port": 50701,
+      "method": "aes-256-cfb",
+      "password": "qwerREWQ@@",
+      "plugin": "",
+      "plugin_opts": "",
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B3%F0%9F%87%B1%E2%9D%96NL%E2%9D%96631",
+      "type": "shadowsocks",
+      "server": "51.15.27.48",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "plugin": "",
+      "plugin_opts": "",
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "🆔@LuxyNet💎❖🇺🇸❖US❖667",
+      "type": "vmess",
+      "server": "47.88.89.106",
+      "server_port": 80,
+      "uuid": "86f8f25d-9d26-41a6-a75b-e0ef992cc74a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/rxrsOUmNbuTJCk4izFEHWrb9qm",
+        "headers": {
+          "Host": "47.88.89.106"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%AD%F0%9F%87%B7%E2%9D%96HR%E2%9D%96688",
+      "type": "shadowsocks",
+      "server": "46.183.184.61",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "plugin": "",
+      "plugin_opts": "",
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B9%F0%9F%87%B7%E2%9D%96TR%E2%9D%96692",
+      "type": "shadowsocks",
+      "server": "45.89.52.66",
+      "server_port": 9041,
+      "method": "aes-256-cfb",
+      "password": "U6qnYRhfyDmn8sgn",
+      "plugin": "",
+      "plugin_opts": "",
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%B1%E2%9D%96PL%E2%9D%96910",
+      "type": "shadowsocks",
+      "server": "217.30.10.68",
+      "server_port": 9000,
+      "method": "aes-256-cfb",
+      "password": "a3GFYt36Sm82Vys9",
+      "plugin": "",
+      "plugin_opts": "",
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%B1%E2%9D%96PL%E2%9D%96919",
+      "type": "shadowsocks",
+      "server": "217.30.10.68",
+      "server_port": 9073,
+      "method": "aes-256-cfb",
+      "password": "daFYagqDdBdA6VTX",
+      "plugin": "",
+      "plugin_opts": "",
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%B1%E2%9D%96PL%E2%9D%96923",
+      "type": "shadowsocks",
+      "server": "217.30.10.68",
+      "server_port": 9026,
+      "method": "aes-256-cfb",
+      "password": "QWDDvVE9npNurQfA",
+      "plugin": "",
+      "plugin_opts": "",
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B1%F0%9F%87%BB%E2%9D%96LV%E2%9D%961123",
+      "type": "shadowsocks",
+      "server": "185.135.86.173",
+      "server_port": 9025,
+      "method": "aes-256-cfb",
+      "password": "XPtzA9sCug3SPR4c",
+      "plugin": "",
+      "plugin_opts": "",
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B1%F0%9F%87%BB%E2%9D%96LV%E2%9D%961128",
+      "type": "shadowsocks",
+      "server": "185.135.86.173",
+      "server_port": 9042,
+      "method": "aes-256-cfb",
+      "password": "S7KwUu7yBy58S3Ga",
+      "plugin": "",
+      "plugin_opts": "",
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "🆔@LuxyNet💎❖🇳🇱❖NL❖1428",
+      "type": "vmess",
+      "server": "154.85.1.4",
+      "server_port": 443,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "security": "auto",
+      "alter_id": 64,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.42077230.xyz",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/path/1683881458407",
+        "headers": {
+          "Host": "www.42077230.xyz"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "🆔@LuxyNet💎❖🇺🇸❖US❖1546",
+      "type": "vmess",
+      "server": "137.175.11.155",
+      "server_port": 443,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "security": "auto",
+      "alter_id": 64,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.77646750.xyz",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/path/1689935243027",
+        "headers": {
+          "Host": "www.77646750.xyz"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "🆔@LuxyNet💎❖🇺🇸❖US❖1597",
+      "type": "vmess",
+      "server": "129.146.46.181",
+      "server_port": 52408,
+      "uuid": "a797ff7b-8161-40a6-d577-1b2c213b3885",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "🆔@LuxyNet💎❖🇺🇸❖US❖1614",
+      "type": "vmess",
+      "server": "129.146.133.157",
+      "server_port": 51009,
+      "uuid": "81714cef-9bde-4a08-aa50-d6bc0172d78b",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "RescueNet-5062",
+      "type": "vmess",
+      "server": "crownv2.ddns.net",
+      "server_port": 443,
+      "uuid": "35C256AA-357E-4965-BCB9-20427E52A319",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Lille.bobbykotick.rip",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "Lille.bobbykotick.rip"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "RescueNet-5748",
+      "type": "shadowsocks",
+      "server": "185.172.113.182",
+      "server_port": 800,
+      "method": "chacha20-ietf-poly1305",
+      "password": "G!yBwPWH3Vao",
+      "plugin": "",
+      "plugin_opts": "",
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "RescueNet-6872",
+      "type": "shadowsocks",
+      "server": "143.244.62.106",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "plugin": "",
+      "plugin_opts": "",
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "RescueNet-9",
+      "type": "vmess",
+      "server": "154.85.1.3",
+      "server_port": 443,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "security": "auto",
+      "alter_id": 64,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "telewebion.com",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/path/1683629314915",
+        "headers": {
+          "Host": "154.85.1.3"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "RescueNet-19",
+      "type": "vmess",
+      "server": "107.167.20.183",
+      "server_port": 443,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "security": "auto",
+      "alter_id": 64,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "telewebion.com",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/path/243535322906",
+        "headers": {
+          "Host": "107.167.20.183"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "RescueNet-40",
+      "type": "vmess",
+      "server": "104.18.29.109",
+      "server_port": 443,
+      "uuid": "be74ca03-6a7c-4c88-edc2-c6434ead0cfa",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cdnca1.digisport.shop",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/16575",
+        "headers": {
+          "Host": "cdnca1.digisport.shop"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "RescueNet-167",
+      "type": "shadowsocks",
+      "server": "passconf.xyz",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "qGjmI8WQlF0tfhDbkLqGdN",
+      "plugin": "",
+      "plugin_opts": "",
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "@prrofile_purple%20|%20FI%F0%9F%87%AB%F0%9F%87%AE%20|%20PHONe.Kashti.WORLd:80%20|%20185.019ms",
+      "type": "vless",
+      "server": "mci.divar.pro",
+      "server_port": 80,
+      "uuid": "ddb133fc-d277-4c27-d518-0966796c35dc",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "nameless-wave-c0e0-work-new.helloworldperianscript.workers.dev",
+        "headers": {
+          "Host": "PHONe.Kashti.WORLd"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "@vpn_tehran%20|%20RELAY%F0%9F%9A%A9%20|%20104.31.16.9:80%20|%2012.7652ms",
+      "type": "vless",
+      "server": "104.31.16.9",
+      "server_port": 80,
+      "uuid": "92838ef6-a329-42c7-aa6f-709c8ee406fc",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "philOsOphY.dlonLInEdoctOr.onlInE"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "@fnet00%20|%20FR%F0%9F%87%AB%F0%9F%87%B7%20|%2051.91.11.29:80%20|%20118.681ms",
+      "type": "trojan",
+      "server": "51.91.11.29",
+      "server_port": 80,
+      "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speedtest.net",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%87%AC%F0%9F%87%B7GR(AzadNet.t.me)_002",
+      "type": "shadowsocks",
+      "server": "192.71.166.100",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "plugin": "",
+      "plugin_opts": "",
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%87%B2%F0%9F%87%B0MK(AzadNet.t.me)_002",
+      "type": "shadowsocks",
+      "server": "46.183.185.15",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "plugin": "",
+      "plugin_opts": "",
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%87%B2%F0%9F%87%B9MT(AzadNet.t.me)",
+      "type": "shadowsocks",
+      "server": "171.22.254.17",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "plugin": "",
+      "plugin_opts": "",
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%87%B3%F0%9F%87%B1NL(AzadNet.t.me)_079",
+      "type": "shadowsocks",
+      "server": "beacomf.xyz",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "T1pb7XxxrolvPSb0u2xSOA",
+      "plugin": "",
+      "plugin_opts": "",
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "🇺🇸US(AzadNet.t.me)_440",
+      "type": "vmess",
+      "server": "64.32.20.103",
+      "server_port": 40039,
+      "uuid": "c1bad9a6-1482-4941-a0c4-e85f3cbbcb5a",
+      "security": "auto",
+      "alter_id": 64,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "🇺🇸US(AzadNet.t.me)_663",
+      "type": "vmess",
+      "server": "45.58.186.81",
+      "server_port": 51140,
+      "uuid": "4a138e19-0595-4d51-83c6-fd276cf7d307",
+      "security": "auto",
+      "alter_id": 64,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%87%BA%F0%9F%87%B8US(AzadNet.t.me)_718",
+      "type": "vless",
+      "server": "cf.ziwen8.eu.org",
+      "server_port": 443,
+      "uuid": "96c19a22-4069-41af-84a9-b94e08dae572",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cf.ziwen8.eu.org",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": null
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%87%BA%F0%9F%87%B8US(AzadNet.t.me)_740",
+      "type": "vless",
+      "server": "cf01.ziwen8.eu.org",
+      "server_port": 443,
+      "uuid": "2eaf4678-e46d-4497-ae3b-935dc8c1bc59",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cf01.ziwen8.eu.org",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": null
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "tcp-giti-mtn",
+      "type": "vmess",
+      "server": "5.161.189.46",
+      "server_port": 443,
+      "uuid": "d20e38ef-1a4d-4009-a00d-2f0d44e3c65a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "5.161.189.46",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "ZUS9-TD",
+      "type": "vmess",
+      "server": "5.161.187.226",
+      "server_port": 8880,
+      "uuid": "45964cb5-af79-4d53-8b99-965264ef103b",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "FB-4TD",
+      "type": "vmess",
+      "server": "5.161.206.41",
+      "server_port": 8880,
+      "uuid": "32a2435f-92da-434e-9bbd-04dbf4a46c83",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "@ConfigV2RayNG+%F0%9F%87%A9%F0%9F%87%AA",
+      "type": "vless",
+      "server": "mtn2.tel-parsashonam.website",
+      "server_port": 2083,
+      "uuid": "Telegram-Parsashonam-1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cloud2.tel-Parsashonam.fun",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "@Parsashonam",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s",
+        "permit_without_stream": false
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "5B-1T",
+      "type": "vmess",
+      "server": "146.190.133.185",
+      "server_port": 8880,
+      "uuid": "65ed00dc-d6bf-42f9-cc6b-5faee6d7a3f8",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "ZUS9-2TD",
+      "type": "vmess",
+      "server": "5.161.81.201",
+      "server_port": 8880,
+      "uuid": "45964cb5-af79-4d53-8b99-965264ef103b",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "@ConfigV2RayNG+%F0%9F%87%BA%F0%9F%87%B2",
+      "type": "vless",
+      "server": "join-1.tel-parsashonam.website",
+      "server_port": 2083,
+      "uuid": "Telegram-Parsashonam-1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "usa.Tel-Parsashonam.site",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": null,
+        "idle_timeout": "15s",
+        "ping_timeout": "15s",
+        "permit_without_stream": false
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "ConfigV2RayNG%F0%9F%AA%90%D8%AC%D9%88%DB%8C%D9%86+%D8%A8%D8%AF%D9%87%F0%9F%87%BA%F0%9F%87%B8",
+      "type": "vless",
+      "server": "104.31.16.65",
+      "server_port": 80,
+      "uuid": "f4721b5a-507d-4477-b483-ea8fbf84d3b3",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "mafatiholjenan-application",
+        "headers": {
+          "Host": "INt.MahdAviat.Uk"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "-xx84x2nb",
+      "type": "vmess",
+      "server": "irancell-ir-3.rollaruby2.skin",
+      "server_port": 443,
+      "uuid": "11600612-cdfd-4f9c-8d41-26c76313c0aa",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "irancell-ir-13.mmdruby15.store",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s",
+        "permit_without_stream": false
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "RescueNet-21",
+      "type": "vmess",
+      "server": "23.108.100.101",
+      "server_port": 443,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "security": "auto",
+      "alter_id": 64,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "telewebion.com",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/footers",
+        "headers": {
+          "Host": "www.40587333.xyz"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "RescueNet-39",
+      "type": "vmess",
+      "server": "vuk1.0bad.com",
+      "server_port": 443,
+      "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vuk1.0bad.com",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/chat",
+        "headers": {
+          "Host": "vuk1.0bad.com"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B8%F0%9F%87%AC%E2%9D%96SG%E2%9D%96437",
+      "type": "shadowsocks",
+      "server": "ak1797.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+      "server_port": 805,
+      "method": "chacha20-ietf-poly1305",
+      "password": "G!yBwPWH3Vao",
+      "plugin": "",
+      "plugin_opts": "",
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B8%F0%9F%87%AC%E2%9D%96SG%E2%9D%96445",
+      "type": "shadowsocks",
+      "server": "ak1768.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+      "server_port": 807,
+      "method": "chacha20-ietf-poly1305",
+      "password": "G!yBwPWH3Vao",
+      "plugin": "",
+      "plugin_opts": "",
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "%F0%9F%86%94@LuxyNet%F0%9F%92%8E%E2%9D%96%F0%9F%87%B5%F0%9F%87%A6%E2%9D%96PA%E2%9D%961542",
+      "type": "shadowsocks",
+      "server": "138.186.142.4",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "plugin": "",
+      "plugin_opts": "",
+      "domain_strategy": "ipv4_only"
     },
     {
       "tag": "@Vpn_Filternet%F0%9F%92%96%F0%9F%91%89%F0%9F%87%AE%F0%9F%87%B1%F0%9F%92%96%F0%9F%91%89IL_1",
@@ -2002,6 +3341,12 @@
         "protocol": "smux",
         "max_streams": 32
       },
+      "tls": {
+        "enabled": true,
+        "server_name": "jdodlhsh6djd0.球运动列运20.tech",
+        "insecure": true,
+        "disable_sni": false
+      },
       "transport": {
         "type": "ws",
         "path": "/",
@@ -2076,7 +3421,7 @@
       "domain_strategy": "ipv4_only"
     },
     {
-      "tag": "@ConfigV2RayNG+%F0%9F%87%A9%F0%9F%87%AA",
+      "tag": "@ConfigV2RayNG+%F0%9F%87%A9%F0%9F%87%AA 2",
       "type": "vless",
       "server": "mci1.tel-parsashonam.website",
       "server_port": 2083,
@@ -2115,6 +3460,12 @@
         "enabled": false,
         "protocol": "smux",
         "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "PHONe.Kashti.WORLd",
+        "insecure": true,
+        "disable_sni": false
       },
       "transport": {
         "type": "ws",
@@ -2214,6 +3565,52 @@
       "domain_strategy": "ipv4_only"
     },
     {
+      "type": "selector",
+      "tag": "WhatsApp",
+      "outbounds": [
+        "direct",
+        "Internet",
+        "Best Latency",
+        "Lock Region ID"
+      ]
+    },
+    {
+      "type": "selector",
+      "tag": "GAMESMAX(ML/FF/AOV)",
+      "outbounds": [
+        "direct",
+        "Internet",
+        "Best Latency",
+        "Lock Region ID"
+      ]
+    },
+    {
+      "type": "selector",
+      "tag": "Route Port Game",
+      "outbounds": [
+        "direct",
+        "Internet",
+        "Best Latency",
+        "Lock Region ID"
+      ]
+    },
+    {
+      "type": "selector",
+      "tag": "Option ADs",
+      "outbounds": [
+        "block",
+        "Internet"
+      ]
+    },
+    {
+      "type": "selector",
+      "tag": "Option P0rn",
+      "outbounds": [
+        "block",
+        "Internet"
+      ]
+    },
+    {
       "type": "direct",
       "tag": "direct"
     },
@@ -2244,6 +3641,435 @@
         "port": [
           53
         ]
+      },
+      {
+        "network": "udp",
+        "port": [
+          443
+        ],
+        "outbound": "block"
+      },
+      {
+        "domain_suffix": [
+          "googlesyndication.com"
+        ],
+        "outbound": "Internet"
+      },
+      {
+        "geosite": [
+          "rule-ads",
+          "oisd-full"
+        ],
+        "outbound": "Option ADs"
+      },
+      {
+        "geosite": [
+          "oisd-nsfw",
+          "category-porn"
+        ],
+        "outbound": "Option P0rn"
+      },
+      {
+        "geosite": "whatsapp",
+        "outbound": "WhatsApp"
+      },
+      {
+        "geoip": "facebook",
+        "port": [
+          3478,
+          4244,
+          5222,
+          5223,
+          5242,
+          45395,
+          50318,
+          59234
+        ],
+        "outbound": "WhatsApp"
+      },
+      {
+        "protocol": "stun",
+        "outbound": "Internet"
+      },
+      {
+        "geosite": [
+          "rule-indo"
+        ],
+        "outbound": "Lock Region ID"
+      },
+      {
+        "network": "udp",
+        "port": [
+          2702,
+          3702,
+          8443,
+          9120,
+          9992,
+          10003,
+          6006,
+          6008,
+          6674,
+          7889,
+          8008,
+          8130,
+          8443,
+          9008,
+          9120,
+          10100,
+          12008,
+          13008,
+          8011,
+          9030,
+          10491,
+          10612,
+          12235,
+          13004,
+          13748,
+          17000,
+          17500,
+          10039,
+          10096,
+          11455,
+          13894,
+          13972
+        ],
+        "port_range": [
+          "4001:4009",
+          "5000:5221",
+          "5224:5241",
+          "5243:5287",
+          "5289:5352",
+          "5354:5509",
+          "5517:5529",
+          "5551:5559",
+          "5601:5700",
+          "9000:9010",
+          "30000:30300",
+          "7006:7008",
+          "8001:8012",
+          "10000:10015",
+          "11000:11019",
+          "10101:10201",
+          "10080:10110",
+          "17000:18000"
+        ],
+        "outbound": "GAMESMAX(ML/FF/AOV)"
+      },
+      {
+        "network": "tcp",
+        "port": [
+          5517,
+          8443,
+          9443,
+          10003,
+          6006,
+          6008,
+          6674,
+          7889,
+          9006,
+          9137,
+          12006,
+          12008,
+          13006,
+          15006,
+          20561,
+          39003,
+          39006,
+          39698,
+          39779,
+          39800,
+          10012,
+          14000,
+          15692,
+          17000,
+          17500,
+          18081,
+          20371,
+          8013,
+          8085,
+          18082,
+          20000,
+          50000,
+          65010,
+          65050,
+          8013,
+          18082,
+          20166,
+          31003,
+          33445,
+          50000,
+          42472,
+          14422,
+          16999,
+          8013,
+          8888,
+          30031,
+          14009,
+          40005,
+          9339,
+          2099,
+          8088,
+          5692,
+          8085,
+          8500,
+          10000,
+          10082,
+          20000,
+          25000,
+          29134,
+          31003
+        ],
+        "port_range": [
+          "5000:5221",
+          "5224:5227",
+          "5229:5241",
+          "5243:5287",
+          "5289:5352",
+          "5354:5509",
+          "5520:5529",
+          "5551:5559",
+          "5601:5700",
+          "9000:9010",
+          "30000:30300",
+          "7006:7008",
+          "8001:8012",
+          "10000:10012",
+          "11000:11019",
+          "8085:8088",
+          "10000:10019",
+          "20000:20002",
+          "10000:10001",
+          "20000:20001",
+          "9330:9340",
+          "2080:2099",
+          "9100:9200",
+          "8230:8250",
+          "8110:8120",
+          "27000:28998",
+          "7770:7790",
+          "44590:44610",
+          "10500:10515",
+          "27015:27030",
+          "27036:27037",
+          "39190:39200",
+          "49001:49190",
+          "8393:8400"
+        ],
+        "outbound": "Route Port Game"
+      },
+      {
+        "network": "udp",
+        "port": [
+          2702,
+          3702,
+          8443,
+          9120,
+          9992,
+          10003,
+          6006,
+          6008,
+          6674,
+          7889,
+          8008,
+          8130,
+          8443,
+          9008,
+          9120,
+          10100,
+          12008,
+          13008,
+          8700,
+          10013,
+          10019,
+          10039,
+          10096,
+          10491,
+          10612,
+          11455,
+          12235,
+          13748,
+          13894,
+          13972,
+          17000,
+          17500,
+          8700,
+          9030,
+          8011,
+          9030,
+          10491,
+          10612,
+          12235,
+          13004,
+          13748,
+          17000,
+          17500,
+          10039,
+          10096,
+          11455,
+          13894,
+          13972,
+          42472,
+          5100,
+          39000,
+          4380,
+          27036,
+          14422,
+          16999,
+          8013,
+          8888,
+          8000,
+          30104,
+          14009,
+          40005,
+          8088,
+          5010,
+          6650,
+          8011,
+          8700,
+          20000,
+          25000,
+          29134,
+          30000
+        ],
+        "port_range": [
+          "4001:4009",
+          "5000:5221",
+          "5224:5241",
+          "5243:5287",
+          "5289:5352",
+          "5354:5509",
+          "5517:5529",
+          "5551:5559",
+          "5601:5700",
+          "9000:9010",
+          "30000:30300",
+          "7006:7008",
+          "8001:8012",
+          "10000:10015",
+          "11000:11019",
+          "7086:7995",
+          "8011:8013",
+          "9030:9031",
+          "20000:20002",
+          "12070:12460",
+          "41182:41192",
+          "7500:7995",
+          "10010:10019",
+          "20000:20001",
+          "10101:10201",
+          "10080:10110",
+          "17000:18000",
+          "5055:5058",
+          "22101:22102",
+          "9330:9340",
+          "27000:28998",
+          "16300:16350",
+          "40000:40010",
+          "60970:60980",
+          "27000:27031",
+          "40000:40010",
+          "7000:8000",
+          "8180:8181",
+          "27016:27024",
+          "54000:54012"
+        ],
+        "outbound": "Route Port Game"
+      },
+      {
+        "geoip": [
+          "id"
+        ],
+        "port": [
+          21,
+          22,
+          23,
+          80,
+          81,
+          123,
+          143,
+          182,
+          183,
+          194,
+          443,
+          465,
+          587,
+          853,
+          993,
+          995,
+          998,
+          2052,
+          2053,
+          2082,
+          2083,
+          2086,
+          2095,
+          2096,
+          5222,
+          5228,
+          5229,
+          5230,
+          8000,
+          8080,
+          8081,
+          8088,
+          8443,
+          8880,
+          8883,
+          8888,
+          8889,
+          42069
+        ],
+        "outbound": "Lock Region ID"
+      },
+      {
+        "port": [
+          21,
+          22,
+          23,
+          80,
+          81,
+          123,
+          143,
+          182,
+          183,
+          194,
+          443,
+          465,
+          587,
+          853,
+          993,
+          995,
+          998,
+          2052,
+          2053,
+          2082,
+          2083,
+          2086,
+          2095,
+          2096,
+          5222,
+          5228,
+          5229,
+          5230,
+          8000,
+          8080,
+          8081,
+          8088,
+          8443,
+          8880,
+          8883,
+          8888,
+          8889,
+          42069
+        ],
+        "outbound": "Internet"
+      },
+      {
+        "port_range": [
+          "1023:42068",
+          "42070:65535"
+        ],
+        "outbound": "Route Port Game"
       }
     ]
   }
